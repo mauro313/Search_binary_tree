@@ -6,7 +6,7 @@
 
 
 /**
- * @brief insert a node in a search binary tree. Return 1 uf the node was inserted and 0
+ * @brief insert a node in a search binary tree. Return 1 if the node was inserted and 0
  * otherwise (newNode already exist).
  * 
  * @param node 
@@ -44,7 +44,7 @@ int sbt_insert_node(btn_t** node, btn_t* newNode, int cmp (t_elem, t_elem)){
 }
 
 /**
- * @brief insert a value in a search binary tree node. the function uses sbt_insert_node.
+ * @brief insert a value in a search binary tree node. The function uses sbt_insert_node.
  * 
  * @param node 
  * @param value 
